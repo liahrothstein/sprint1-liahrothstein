@@ -1,0 +1,209 @@
+div.header {
+    display: flex;
+    margin: 32px 11.46vw 0;
+    justify-content: space-between;
+    color: #363636;
+}
+
+div.header div.logo {
+    display: flex;
+    align-items: center;
+}
+
+div.header div.logo div.logoName {
+    margin-left: 0.56vw;
+    font-size: 21px;
+}
+
+div.header div.nameOfPage {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    padding-right: 22.22vw;
+}
+
+div.header div.person {
+    display: flex;
+    align-items: center;
+}
+
+div.header div.person div.hiName {
+    padding-right: 0.69vw;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+div.menu {
+    margin-top: 47px;
+    margin-left: 11.46vw;
+    width: 19.38vw;
+}
+
+div.menu div.tab1 div.active {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+div.menu div.tab1 hr {
+    margin: 16px 0;
+    border: none;
+    width: 17.71vw;
+    height: 1px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    transform: rotate(180deg);
+}
+
+div.menu div.tab1 div.categories div.allBooks {
+    padding-left: 1.39vw;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+
+div.menu div.tab1 div.categories div.books {
+    padding-left: 1.67vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.menu div.tab1 div.categories div.book {
+    display: flex;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+div.menu div.tab1 div.categories div.books div.book div.nameOfBook {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0.42vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child {
+    padding-right: 8.06vw;
+}
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book {
+    padding-right: 10.42vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book {
+    padding-right: 7.64vw;
+}
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book {
+    padding-right: 2.57vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book {
+    padding-right: 11.74vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 1.25vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 3.89vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 0.35vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 4.31vw;
+}
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 4.1vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 5.35vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 8.26vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:first-child + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book + div.book {
+    padding-right: 9.51vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book:last-child {
+    padding-right: 6.39vw;
+}
+
+div.menu div.tab1 div.categories div.books div.book div.amount {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A7A7A7;
+}
+
+div.menu div.tab2,
+div.menu div.tab3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+div.menu div.tab2 {
+    margin: 42px 0;
+}
+
+div.footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 77.08vw;
+    padding: 16px 0;
+    border-top: 1px solid #BFC4C9;
+}
+
+div.footer div.copyrights {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+div.footer div.socials {
+    width: 168px;
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
+
+div.footer div.socials img:first-child {
+    width: 9.9px;
+    height: 18px;
+}
+
+div.footer div.socials img:first-child + img {
+    width: 18px;
+    height: 18px;
+}
+
+div.footer div.socials img:first-child + img + img {
+    width: 22px;
+    height: 13.2px;
+    margin-top: 5px;
+}
+
+div.footer div.socials img:first-child + img + img + img {
+    width: 18px;
+    height: 19px;
+}
