@@ -1,4 +1,7 @@
 import './main-page.css';
+
+import { Link} from 'react-router-dom';
+
 import logo from './logo-clevertec.png';
 import avatar from './avatar.png';
 import facebook from './social1.png';
@@ -21,9 +24,12 @@ export const MainPage = () => (
                 <div className="avatar"><img src={avatar} alt="avatar" /></div>
             </div>
         </div>
+        <div className="container">
         <div className="menu">
             <div className="tab1">
-                <div className="active">Витрина книг</div>
+                <div className="active">
+                    <Link to='/'>Витрина книг</Link>
+                </div>
                 <hr />
                 <div className="categories">
                     <div className="allBooks">Все книги</div>
@@ -87,8 +93,14 @@ export const MainPage = () => (
                     </div>
                 </div>
             </div>
-            <div className="tab2">Правила пользования</div>
-            <div className="tab3">Договор оферты</div>
+            <div className="tab2">
+                <Link to='/terms'>Правила пользования</Link>
+            </div>
+            <div className="tab3">
+                <Link to='/offer'>Договор оферты</Link>
+            </div>
+        </div>
+        <div className="mainBooks">1</div>
         </div>
         <div className="footer">
             <div className="copyrights">
