@@ -8,6 +8,14 @@ import facebook from './social1.png';
 import instagram from './social2.png';
 import vk from './social3.png';
 import linkedin from './social4.png';
+import search from './search.png';
+import filterButton from './filter-button.png';
+import buttonIconOn from './button-icon-on.png';
+import buttonIconOff from './button-icon-off.png';
+import image from './image.png';
+import notImage from './notImage.png';
+import star from './star.png';
+import notStar from './notStar.png';
 
 export const MainPage = () => (
     <section className='main-page'>
@@ -100,7 +108,287 @@ export const MainPage = () => (
                 <Link to='/offer'>Договор оферты</Link>
             </div>
         </div>
-        <div className="mainBooks">1</div>
+        <div className="mainBooks">
+            <div className="navigationList">
+                <div className="searchWithFilterButton">
+                    <div className="search"><img src={search} alt="" /></div>
+                    <div className="filterButton"><img src={filterButton} alt="" /></div>
+                </div>
+                <div className="buttonIcons">
+                    <div className="buttonIcon"><img src={buttonIconOn} alt="" /></div>
+                    <div className="buttonIcon"><img src={buttonIconOff} alt="" /></div>
+                </div>
+            </div>
+            <div className="bookIcons">
+                <div className="bookIcon">
+                    <div className="all">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное </div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    </div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. </div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button closed">
+                        <button type='button'>занята до 03.05</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
+                    <div className="button booked">
+                        <button type='button'>Забронирована</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={notImage} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. </div>
+                    <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">
+                        <div className="star">
+                            <img src={star} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                        <div className="star">
+                            <img src={notStar} alt="star" />
+                        </div>
+                    </div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={notImage} alt="book" />
+                    </div>
+                    <div className="stars">ещё нет оценок</div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное </div>
+                    <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
+                    <div className="button closed">
+                        <button type='button'>Занята до 23.04</button>
+                    </div>
+                </div>
+                <div className="bookIcon">
+                    <div className="imageOfBook">
+                        <img src={image} alt="book" />
+                    </div>
+                    <div className="stars">ещё нет оценок</div>
+                    <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
+                    <div className="author">Адитья Бхаргава, 2019</div>
+                    <div className="button">
+                        <button type='button'>Забронировать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <div className="footer">
             <div className="copyrights">

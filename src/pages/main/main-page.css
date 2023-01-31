@@ -217,3 +217,120 @@ div.mainBooks {
     margin-top: 47px;
     width: 57.29vw;
 }
+
+div.mainBooks div.navigationList {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.mainBooks div.navigationList div.searchWithFilterButton {
+    display: flex;
+}
+
+div.mainBooks div.navigationList div.searchWithFilterButton div.search, 
+div.mainBooks div.navigationList div.searchWithFilterButton div.filterButton {
+    cursor: pointer;
+}
+
+div.mainBooks div.navigationList div.buttonIcons {
+    display: flex;
+}
+
+div.mainBooks div.navigationList div.buttonIcons div.buttonIcon {
+    cursor: pointer;
+}
+
+div.mainBooks div.bookIcons {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.49vw;
+}
+
+div.mainBooks div.bookIcons div.bookIcon {
+    cursor: pointer;
+    padding: 8px 0.56vw 16px 0.56vw;
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.stars {
+    display: flex;
+    gap: 0.69vw;
+    padding-top: 18px;
+    padding-left: 0.14vw;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.nameOfBook {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 28px;
+    padding-bottom: 17px;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #727272;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.button {
+    text-align: center;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.button button[type='button'] {
+    height: 40px;
+    width: 11.53vw;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.closed button[type='button'] {
+    background: #F9F9FA;
+    border: 1px solid #BFC4C9;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #A7A7A7;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.booked button[type='button'] {
+    background: #FFFFFF;
+    border: 1px solid #BFC4C9;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #363636;
+}
+
+div.mainBooks div.bookIcons div.bookIcon div.container {
+    display: flex;
+}
