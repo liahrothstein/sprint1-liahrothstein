@@ -122,7 +122,7 @@ export const MainPage = () => (
                 </div>
             </div>
             <div className="bookIcons">
-                <div className="bookIcon" data-test-id='card'>
+                <div className="bookIcon">
                     <div className="all">
                     <div className="imageOfBook">
                         <img src={image} alt="book" />
@@ -148,7 +148,7 @@ export const MainPage = () => (
                     <div className="author">Адитья Бхаргава, 2019</div>
                     </div>
                     <Link to='/book'>
-                        <div className="button">
+                        <div className="button" data-test-id='card'>
                             <button type='button'>Забронировать</button>
                         </div>
                     </Link>
