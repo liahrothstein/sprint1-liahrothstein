@@ -21,10 +21,12 @@ const activeButton = {
 export const OfferAgreement = () => (
     <section className='main-page'>
         <div className="header">
-            <div className="logo">
-                <div className="logoClevertec"><img src={logo} alt="logo" /></div>
-                <div className="logoName">Cleverland</div>
-            </div>
+            <Link to='/'>
+                <div className="logo">
+                    <div className="logoClevertec"><img src={logo} alt="logo" /></div>
+                    <div className="logoName">Cleverland</div>
+                </div>
+            </Link>
             <div className="nameOfPage">Библиотека</div>
             <div className="person">
                 <div className="hiName">

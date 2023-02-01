@@ -5,6 +5,7 @@ import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { MainPage } from './pages/main';
 import { TermsOfUse } from './pages/terms';
 import { OfferAgreement } from './pages/offer';
+import { BookPage } from './pages/book';
 
 import './index.css';
 
@@ -16,6 +17,7 @@ root.render(
         <Route path='/' element={<MainPage />} />
         <Route path='/terms' element={<TermsOfUse />} />
         <Route path='/offer' element={<OfferAgreement />} />
+        <Route path='/book' element={<BookPage />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

@@ -20,10 +20,12 @@ import notStar from './notStar.png';
 export const MainPage = () => (
     <section className='main-page'>
         <div className="header">
-            <div className="logo">
-                <div className="logoClevertec"><img src={logo} alt="logo" /></div>
-                <div className="logoName">Cleverland</div>
-            </div>
+            <Link to='/'>
+                <div className="logo">
+                    <div className="logoClevertec"><img src={logo} alt="logo" /></div>
+                    <div className="logoName">Cleverland</div>
+                </div>
+            </Link>
             <div className="nameOfPage">Библиотека</div>
             <div className="person">
                 <div className="hiName">
@@ -115,12 +117,12 @@ export const MainPage = () => (
                     <div className="filterButton"><img src={filterButton} alt="" /></div>
                 </div>
                 <div className="buttonIcons">
-                    <div className="buttonIcon"><img src={buttonIconOn} alt="" /></div>
-                    <div className="buttonIcon"><img src={buttonIconOff} alt="" /></div>
+                    <div className="buttonIcon" data-test-id='button-menu-view-window'><img src={buttonIconOn} alt="" /></div>
+                    <div className="buttonIcon" data-test-id='button-menu-view-list'><img src={buttonIconOff} alt="" /></div>
                 </div>
             </div>
             <div className="bookIcons">
-                <div className="bookIcon">
+                <div className="bookIcon" data-test-id='card'>
                     <div className="all">
                     <div className="imageOfBook">
                         <img src={image} alt="book" />
@@ -145,9 +147,11 @@ export const MainPage = () => (
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное </div>
                     <div className="author">Адитья Бхаргава, 2019</div>
                     </div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -199,9 +203,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -226,9 +232,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -280,9 +288,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -307,9 +317,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. </div>
                     <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -334,9 +346,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, Патрик Нимейер, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -361,9 +375,11 @@ export const MainPage = () => (
                     </div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
                 <div className="bookIcon">
                     <div className="imageOfBook">
@@ -383,9 +399,11 @@ export const MainPage = () => (
                     <div className="stars">ещё нет оценок</div>
                     <div className="nameOfBook">Грокаем алгоритмы. Иллюстрированное пособие для програ...</div>
                     <div className="author">Адитья Бхаргава, 2019</div>
-                    <div className="button">
-                        <button type='button'>Забронировать</button>
-                    </div>
+                    <Link to='/book'>
+                        <div className="button">
+                            <button type='button'>Забронировать</button>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
