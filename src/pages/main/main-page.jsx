@@ -16,6 +16,10 @@ import image from './image.png';
 import notImage from './notImage.png';
 import star from './star.png';
 import notStar from './notStar.png';
+import burger from './burger.png';
+import miniFilter from './mini-filter.png';
+import miniSearch from './mini-search.png';
+
 
 export const MainPage = () => (
     <section className='main-page'>
@@ -26,6 +30,7 @@ export const MainPage = () => (
                     <div className="logoName">Cleverland</div>
                 </div>
             </Link>
+            <div className="burgerMenu"><img src={burger} alt='burger' /></div>
             <div className="nameOfPage">Библиотека</div>
             <div className="person">
                 <div className="hiName">
@@ -115,6 +120,10 @@ export const MainPage = () => (
                 <div className="searchWithFilterButton">
                     <div className="search"><img src={search} alt="" /></div>
                     <div className="filterButton"><img src={filterButton} alt="" /></div>
+                </div>
+                <div className="miniSearchWithFilterButton">
+                    <div className="miniSearch"><img src={miniSearch} alt="search" /></div>
+                    <div className="miniFilter"><img src={miniFilter} alt="filter" /></div>
                 </div>
                 <div className="buttonIcons">
                     <div className="buttonIcon" data-test-id='button-menu-view-window'><img src={buttonIconOn} alt="" /></div>

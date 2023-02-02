@@ -11,6 +11,7 @@ import commentator from './commentator.png';
 import image from './image.png';
 import star from '../main/star.png';
 import notStar from '../main/notStar.png';
+import burger from '../main/burger.png';
 
 export const BookPage = () => (
     <section className='book-page'>
@@ -21,6 +22,7 @@ export const BookPage = () => (
                     <div className="logoName">Cleverland</div>
                 </div>
             </Link>
+            <div className="burgerMenu"><img src={burger} alt='burger' /></div>
             <div className="nameOfPage">Библиотека</div>
             <div className="person">
                 <div className="hiName">
